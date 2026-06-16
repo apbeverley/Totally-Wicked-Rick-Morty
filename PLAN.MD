@@ -164,3 +164,7 @@ No client-side filtering — all filtering is API-side.
 8. `Character.vue` — character detail
 9. README with setup instructions
 10. Review commits, clean up
+
+## Additional Decisions
+
+- I have chosen to keep `withoutVerifying` within the connection request to the API. This is because I aware that this will be run locally and is likely to need this option set to false.
